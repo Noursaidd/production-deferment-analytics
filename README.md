@@ -5,6 +5,8 @@ A production-analytics project on 2 years of daily data from 30 oil wells: messy
 and operator downtime logs are cleaned and analysed **in SQL**, then **Python statistics** add
 decline-curve forecasting and a proper treatment-effect test.
 
+**📊 View the report:** https://noursaidd.github.io/production-deferment-analytics/reports/production_review.html
+
 > Portfolio project for a Data Scientist role in the energy sector. Data is synthetic (no confidential data)
 > but reproduces real reporting problems. Companion project to *ESP Failure Early-Warning* (ML).
 
