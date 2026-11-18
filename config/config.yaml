@@ -1,0 +1,17 @@
+seed: 7
+n_wells: 30
+start_date: "2024-01-01"
+end_date: "2025-12-31"
+db: data/production.db
+raw_dir: data/raw
+oil_price_usd_per_bbl: 70
+
+intervention:              # scale-inhibitor squeeze treatment campaign
+  date: "2025-04-01"
+  n_treated: 8
+  true_uplift: 0.12        # used ONLY by the generator; the analysis must rediscover it
+  window_days: 60          # before/after comparison window
+
+decline:
+  forecast_months: 12
+  underperform_pct: 10     # flag wells >10% off their own decline forecast (last 3 months)

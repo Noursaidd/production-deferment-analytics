@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/production.db
+reports/.decline_curves.pkl
