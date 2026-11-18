@@ -22,6 +22,24 @@ decline-curve forecasting and a proper treatment-effect test.
 | Scale-squeeze treatment effect (difference-in-differences) | **+12.9%** (95% CI +11.1% to +14.8%; true value built into the data = 12%) |
 | Same effect measured naively (before vs after) | +8.5%, **under-states the effect** because it ignores natural decline |
 
+**Where the lost oil went.** The biggest single bucket is oil lost with no reason in the operator log.
+
+![Deferred oil by cause over 2 years, with cumulative Pareto percentages](docs/images/deferment_by_cause.png)
+
+**Production efficiency by month** (actual ÷ potential), between 83% and 92% over the two years.
+
+![Monthly production efficiency, January 2024 to December 2025](docs/images/monthly_efficiency.png)
+
+**Decline-curve check.** Each well is compared with its own forecast: P-030 is falling below it (investigate),
+P-028 is running above it (update the forecast).
+
+![Actual oil rate against decline-curve forecast for three wells: below forecast, on track, above forecast](docs/images/decline_curves.png)
+
+**Did the scale-squeeze treatment work?** Treated wells rose 8.5% while untreated wells fell 4.4% over the
+same period, so the real effect is +12.9%, not the naive +8.5%.
+
+![Change in oil rate for treated wells vs untreated control wells, 60 days after vs before treatment](docs/images/treatment_effect.png)
+
 ---
 
 ## SQL skills shown (`sql/`)
@@ -65,4 +83,5 @@ src/decline.py              decline-curve forecasts and under-performer flags
 src/intervention.py         treatment-effect test
 src/report.py               management report
 docs/                       SQL walkthrough, CV and interview kit
+docs/images/                result charts shown in this README (from the management report)
 ```
