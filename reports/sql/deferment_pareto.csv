@@ -1,0 +1,8 @@
+cause,category,events,deferred_bbl,pct_of_total,cumulative_pct
+Unexplained (not logged),Unknown,166,259136.0,23.1,23.1
+ESP trip,Unplanned,149,230130.0,20.5,43.6
+Flowline leak,Unplanned,58,197509.0,17.6,61.1
+Planned maintenance,Planned,77,166894.0,14.9,76.0
+Facility constraint,Unplanned,87,157172.0,14.0,90.0
+Power failure,Unplanned,109,91328.0,8.1,98.1
+Well test,Planned,44,21167.0,1.9,100.0

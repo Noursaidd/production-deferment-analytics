@@ -1,0 +1,8 @@
+metric,value
+raw: rows,21885
+raw: non-standard well IDs,1114
+raw: duplicate rows removed,174
+raw: hours_on > 24 (capped),40
+raw: negative oil (set NULL),30
+calendar: missing daily reports,219
+raw: distinct downtime reason spellings,21

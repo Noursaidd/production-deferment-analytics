@@ -1,0 +1,4 @@
+lift_type,wells,unplanned_events,mtbe_days,avg_bbl_lost_per_event
+Gas lift,8,170,34.0,1472.0
+Natural flow,4,76,38.0,1157.0
+ESP,18,323,41.0,1819.0

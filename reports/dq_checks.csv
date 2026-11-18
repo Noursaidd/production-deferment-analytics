@@ -1,0 +1,7 @@
+check_name,failing_rows
+"clean: duplicate (well, day) rows",0
+clean: hours_on outside 0..24,0
+clean: negative volumes,0
+clean: well_id not in master,0
+clean: unclassified downtime reasons,0
+clean: downtime end before start,0

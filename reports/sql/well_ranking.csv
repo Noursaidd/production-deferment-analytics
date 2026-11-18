@@ -1,0 +1,31 @@
+rank,well_id,field,lift_type,unplanned_events,unplanned_deferred_bbl,quartile,pct_of_field
+1,P-021,Field C,ESP,18,91292.0,1,22.1
+2,P-019,Field A,ESP,25,72870.0,1,23.5
+3,P-016,Field C,ESP,15,67500.0,1,16.3
+4,P-003,Field C,Gas lift,26,60215.0,1,14.6
+5,P-005,Field B,Natural flow,27,49924.0,1,23.5
+6,P-001,Field C,ESP,13,46730.0,1,11.3
+7,P-029,Field B,Gas lift,22,40745.0,1,19.2
+8,P-024,Field A,Gas lift,26,39867.0,1,12.9
+9,P-008,Field A,Gas lift,25,33894.0,2,11.0
+10,P-017,Field A,ESP,27,33624.0,2,10.9
+11,P-012,Field C,ESP,16,32867.0,2,7.9
+12,P-026,Field A,ESP,20,31906.0,2,10.3
+13,P-020,Field B,Gas lift,19,31216.0,2,14.7
+14,P-018,Field C,ESP,17,26234.0,2,6.3
+15,P-022,Field A,ESP,19,25949.0,2,8.4
+16,P-025,Field C,ESP,14,25475.0,2,6.2
+17,P-010,Field A,ESP,20,24990.0,3,8.1
+18,P-028,Field B,ESP,19,23938.0,3,11.3
+19,P-004,Field C,Gas lift,20,22314.0,3,5.4
+20,P-009,Field A,ESP,18,20454.0,3,6.6
+21,P-030,Field B,Gas lift,20,17998.0,3,8.5
+22,P-015,Field B,ESP,16,17778.0,3,8.4
+23,P-013,Field C,Natural flow,17,17400.0,3,4.2
+24,P-011,Field A,ESP,16,16919.0,4,5.5
+25,P-002,Field B,Natural flow,14,15215.0,4,7.2
+26,P-023,Field B,ESP,20,15211.0,4,7.2
+27,P-007,Field C,ESP,13,9443.0,4,2.3
+28,P-014,Field A,Gas lift,12,8968.0,4,2.9
+29,P-006,Field C,ESP,17,8697.0,4,2.1
+30,P-027,Field C,Natural flow,18,5642.0,4,1.4
